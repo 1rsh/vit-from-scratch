@@ -133,7 +133,7 @@ for epoch in tqdm(range(num_epochs), position = 0, leave = True):
 
             val_loss = val_running_loss / (idx + 1)
 ```
-
+![image](https://github.com/1rsh/vit-from-scratch/assets/93649948/33d08bb5-2c85-4476-96e2-0606cbc607a9)
 
 ## Footnote
 If you wish to use the following PyTorch implementation of Vision Transformer for your own project, just download the notebook and update train_dir and test_dir acoording to your file hierarchy. Also make sure to adjust variables such as img_size. <br>
